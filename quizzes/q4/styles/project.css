@@ -24,7 +24,7 @@ a:focus, a:hover{
 }
 
 article{
-    clear: both;
+    clear: left;
     width: 70%;
     float: left;
     column-count: 2;
