@@ -92,3 +92,6 @@ footer{
     text-align: center;
     font-size: 80%;
 }
+hr{
+    border-top: 3px solid blue;
+}
