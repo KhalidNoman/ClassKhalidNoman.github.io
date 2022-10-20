@@ -1,0 +1,92 @@
+html{
+    background-image: linear-gradient(to right, lightblue 0%, white 100%);
+}
+
+#nav_menu{
+    padding-bottom: 30px;
+}
+#nav_menu ul{
+    list-style-type: none;
+}
+#nav_menu ul li{
+    float: left;
+}
+#nav_menu ul li a{
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+#nav_menu ul li a.lastitem{
+    border-right: none;
+}
+#nav_menu ul li a.current{
+    color: yellow;
+}
+#nav_menu ul li a{
+    color: white;
+}
+
+article p::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+article img{
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+article h1{
+    color: blue;
+    column-span: all;
+}
+article h2{
+    color: blue;
+}
+
+aside ol{
+    list-style-type: upper-roman;
+}
+aside ul{
+    list-style-type: square;
+}
+
+body{
+    width: 95%;
+    margin: 15px auto;
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+}
+article{
+    width: 75%;
+    clear: left;
+    float: left;
+    column-count: 3;
+    column-rule: 4px dotted blue;
+    column-gap: 2em;
+}
+aside{
+    width: 20%;
+    position: fixed;
+    clear: left;
+    right: 0;
+    top: 25%;
+    border: 3px solid blue;
+    background-color: lightblue;
+    padding: 2em;
+}
+footer{
+    clear: both;
+    text-align: center;
+    font-size: 80%;
+}
